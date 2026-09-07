@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="48.0dp" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_glass_translate__0" android:pathData="M24,24m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    <path android:fillColor="@drawable/$ic_glass_translate__1" android:pathData="M24,14l-14,0l0,14l14,0l0,-14z" />
+    <path android:fillColor="@drawable/$ic_glass_translate__2" android:pathData="M38,20l-14,0l0,14l14,0l0,-14z" />
+    <path android:fillColor="#ffffff" android:pathData="M14,18h6v2h-6z M14,22h4v2h-4z M28,24h6v2h-6z M28,28h4v2h-4z" />
+</vector>

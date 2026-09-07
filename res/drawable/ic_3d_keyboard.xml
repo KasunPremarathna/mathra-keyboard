@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_3d_keyboard__0" android:pathData="M20,5H4C2.9,5 2,5.9 2,7V17C2,18.1 2.9,19 4,19H20C21.1,19 22,18.1 22,17V7C22,5.9 21.1,5 20,5Z" />
+    <path android:fillColor="#40000000" android:pathData="M20,18H4C3.45,18 3,17.55 3,17V7C3,6.45 3.45,6 4,6H20C20.55,6 21,6.45 21,7V17C21,17.55 20.55,18 20,18Z" />
+    <path android:fillColor="#ffffff" android:pathData="M5,8H7V10H5V8Z M8,8H10V10H8V8Z M11,8H13V10H11V8Z M14,8H16V10H14V8Z M17,8H19V10H17V8Z M5,11H7V13H5V11Z M8,11H10V13H8V11Z M11,11H13V13H11V11Z M14,11H16V13H14V11Z M17,11H19V13H17V11Z M8,14H16V16H8V14Z" />
+</vector>

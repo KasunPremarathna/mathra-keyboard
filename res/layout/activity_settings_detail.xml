@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/premium_bg_light" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/toolbar_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="6.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="72.0dp" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="#2d3748" app:title="Settings" app:titleMarginStart="16.0dp" app:titleTextColor="#2d3748" />
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.core.widget.NestedScrollView android:paddingTop="8.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/container_settings" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:paddingBottom="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dp">
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_keyboard" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/setting_sinhala_layout" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_kb_size" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_key_height" layout="@layout/item_setting_slider" />
+                    <include android:id="@id/setting_font_size" layout="@layout/item_setting_slider" />
+                    <include android:id="@id/setting_key_spacing" layout="@layout/item_setting_slider" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_typing" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/setting_auto_correct" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_auto_caps" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_text_replacement" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_sound" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_sound_volume" layout="@layout/item_setting_slider" />
+                    <include android:id="@id/setting_vibration" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_vibration_intensity" layout="@layout/item_setting_slider" />
+                    <include android:id="@id/setting_key_bounce" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_long_press" layout="@layout/item_setting_slider" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_shortcuts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.button.MaterialButton android:textColor="@color/brand_purple" android:gravity="start|center" android:id="@id/btn_my_shortcuts" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Manage My Shortcuts" android:textAllCaps="false" app:icon="@drawable/ic_edit" app:iconGravity="textStart" app:iconPadding="12.0dp" app:iconTint="@color/brand_purple" style="@style/Widget.MaterialComponents.Button.TextButton" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_guide" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.button.MaterialButton android:textColor="@color/brand_purple" android:gravity="start|center" android:id="@id/btn_replacement_guide" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Decoration Guide" android:textAllCaps="false" app:icon="@drawable/ic_edit" app:iconGravity="textStart" app:iconPadding="12.0dp" app:iconTint="@color/brand_purple" style="@style/Widget.MaterialComponents.Button.TextButton" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_emoji" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/setting_emoji_bar" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_emoji_size" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_emoji_bar_height" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_clipboard" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_clipboard_limit" layout="@layout/item_setting_slider" />
+                    <com.google.android.material.button.MaterialButton android:textColor="#ff5252" android:id="@id/btn_clear_clipboard" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clear Clipboard History" style="@style/Widget.MaterialComponents.Button.TextButton" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_translation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/setting_translate" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_translate_lang" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_clipboard_translate" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_clip_translate_lang" layout="@layout/item_setting_spinner" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_appearance" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_theme_settings" android:background="@drawable/btn_premium_gradient" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginBottom="16.0dp" android:text="Theme Center" android:textAllCaps="false" android:backgroundTint="@android:color/transparent" app:cornerRadius="28.0dp" app:elevation="8.0dp" />
+                    <include android:id="@id/setting_dark_mode" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_curved_top" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_borders" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_custom_rgb" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_ui_font" layout="@layout/item_setting_spinner" />
+                    <include android:id="@id/setting_wave_animation" layout="@layout/item_setting_switch" />
+                    <include android:id="@id/setting_wave_height" layout="@layout/item_setting_slider" />
+                    <com.google.android.material.button.MaterialButton android:textColor="#ff5252" android:id="@id/btn_unsubscribe_mspace" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Unsubscribe from mSpace" style="@style/Widget.Material3.Button.TextButton" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/section_stability" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#f0f0f0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#2d3748" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="App Stability" />
+                    <TextView android:textSize="14.0sp" android:textColor="#718096" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="To prevent the keyboard from closing unexpectedly, please disable battery optimization for Teddy Keyboard." />
+                    <com.google.android.material.button.MaterialButton android:id="@id/btn_battery_optimization" android:layout_width="match_parent" android:layout_height="56.0dp" android:text="Disable Battery Optimization" android:textAllCaps="false" app:cornerRadius="28.0dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dp" android:width="120.0dp" android:viewportWidth="120.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$thumb_top_music__0" android:pathData="M0,0h120v80h-120z" />
+    <path android:fillColor="#e91e63" android:pathData="M55,25v30c0,4 -3,7 -7,7s-7,-3 -7,-7s3,-7 7,-7v-23z" />
+    <path android:fillColor="#00bcd4" android:pathData="M95,35v25c0,3 -2,5 -5,5s-5,-2 -5,-5s2,-5 5,-5v-20z" />
+    <path android:fillColor="#ffeb3b" android:pathData="M25,20v15c0,2 -1.5,3.5 -3.5,3.5s-3.5,-1.5 -3.5,-3.5s1.5,-3.5 3.5,-3.5v-11.5z" />
+    <path android:fillColor="#80ffffff" android:pathData="M15,50m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0 M105,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0 M75,65m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+</vector>

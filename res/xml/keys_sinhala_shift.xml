@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="55.0dp" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="3542" android:keyLabel="ූ" />
+        <Key android:codes="3467" android:keyLabel="උ" />
+        <Key android:codes="3537" android:keyLabel="ෑ" />
+        <Key android:codes="3469" android:keyLabel="ඍ" />
+        <Key android:codes="3476" android:keyLabel="ඔ" />
+        <Key android:codes="3521" android:keyLabel="ශ" />
+        <Key android:codes="3513" android:keyLabel="ඹ" />
+        <Key android:codes="3522" android:keyLabel="ෂ" />
+        <Key android:codes="3504" android:keyLabel="ධ" />
+        <Key android:codes="3491" android:keyLabel="ඡ" />
+    </Row>
+    <Row>
+        <Key android:codes="3551" android:keyLabel="ෟ" />
+        <Key android:codes="3539" android:keyLabel="ී" />
+        <Key android:codes="3544" android:keyLabel="ෘ" />
+        <Key android:codes="3526" android:keyLabel="ෆ" />
+        <Key android:codes="3496" android:keyLabel="ඨ" />
+        <Key android:keyLabel="්‍ය" />
+        <Key android:keyLabel="ළු" />
+        <Key android:codes="3499" android:keyLabel="ණ" />
+        <Key android:codes="3483" android:keyLabel="ඛ" />
+        <Key android:codes="3502" android:keyLabel="ථ" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="10.000002%p" android:codes="-1" android:isModifier="true" android:keyIcon="@drawable/ic_shift" />
+        <Key android:codes="3486" android:keyLabel="ඞ" />
+        <Key android:codes="3492" android:keyLabel="ඣ" />
+        <Key android:codes="3498" android:keyLabel="ඪ" />
+        <Key android:codes="3466" android:keyLabel="ඊ" />
+        <Key android:codes="3511" android:keyLabel="භ" />
+        <Key android:codes="3509" android:keyLabel="ඵ" />
+        <Key android:codes="3525" android:keyLabel="ළ" />
+        <Key android:codes="3485" android:keyLabel="ඝ" />
+        <Key android:keyWidth="10.000002%p" android:codes="-5" android:keyIcon="@drawable/ic_backspace" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="14.999998%p" android:codes="-101" android:keyLabel="!123" />
+        <Key android:keyWidth="14.999998%p" android:codes="-102" android:keyIcon="@drawable/ic_globe" />
+        <Key android:keyWidth="39.999996%p" android:codes="32" android:keyLabel="සිංහල" />
+        <Key android:keyWidth="10.000002%p" android:codes="46" android:keyLabel="." />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyIcon="@drawable/ic_enter" />
+    </Row>
+</Keyboard>

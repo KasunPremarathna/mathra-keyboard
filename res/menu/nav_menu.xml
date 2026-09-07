@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home" android:id="@id/nav_home" android:title="Home" />
+    <item android:icon="@drawable/ic_palette" android:id="@id/nav_theme" android:title="Theme Center" />
+    <item android:icon="@drawable/ic_settings_gear" android:id="@id/nav_settings" android:title="Keyboard Settings" />
+    <item android:icon="@drawable/ic_history" android:id="@id/nav_history" android:title="Clipboard History" />
+    <item android:icon="@drawable/ic_emoji" android:id="@id/nav_emoji" android:title="Emoji Settings" />
+    <item android:title="Support">
+        <menu>
+            <item android:icon="@drawable/ic_share" android:id="@id/nav_share" android:title="Share App" />
+            <item android:icon="@drawable/ic_star" android:id="@id/nav_rate" android:title="Rate Us" />
+            <item android:icon="@drawable/ic_shield" android:id="@id/nav_privacy" android:title="Privacy Policy" />
+            <item android:icon="@drawable/ic_info" android:id="@id/nav_about" android:title="About" />
+            <item android:icon="@drawable/ic_edit" android:id="@id/nav_exit" android:title="Exit" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dp" android:width="120.0dp" android:viewportWidth="120.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$thumb_effect_hearts__0" android:pathData="M0,0h120v80h-120z" />
+    <path android:fillColor="@drawable/$thumb_effect_hearts__1" android:pathData="M60,50l-1.45,-1.32C53.4,44.36 50,41.28 50,37.5 50,34.42 52.42,32 55.5,32c1.74,0 3.41,0.81 4.5,2.09C61.09,32.81 62.76,32 64.5,32 67.58,32 70,34.42 70,37.5c0,3.78 -3.4,6.86 -8.55,11.54L60,50z" />
+    <path android:fillColor="#b3ffffff" android:pathData="M35,30l-0.72,-0.66C31.7,27.18 30,25.64 30,23.75 30,22.21 31.21,21 32.75,21c0.87,0 1.7,0.4 2.25,1.04C35.55,21.4 36.38,21 37.25,21 38.79,21 40,22.21 40,23.75c0,1.89 -1.7,3.43 -4.27,5.77L35,30z" />
+    <path android:fillColor="#80ffffff" android:pathData="M85,35l-0.72,-0.66C81.7,32.18 80,30.64 80,28.75 80,27.21 81.21,26 82.75,26c0.87,0 1.7,0.4 2.25,1.04C85.55,26.4 86.38,26 87.25,26 88.79,26 90,27.21 90,28.75c0,1.89 -1.7,3.43 -4.27,5.77L85,35z" />
+    <path android:fillColor="#66ffffff" android:pathData="M15,45l-0.72,-0.66C11.7,42.18 10,40.64 10,38.75 10,37.21 11.21,36 12.75,36c0.87,0 1.7,0.4 2.25,1.04C15.55,36.4 16.38,36 17.25,36 18.79,36 20,37.21 20,38.75c0,1.89 -1.7,3.43 -4.27,5.77L15,45z" />
+</vector>

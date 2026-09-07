@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#40ffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="@color/teddy_gradient_start" android:endColor="@color/teddy_gradient_end" android:angle="0.0" android:type="linear" android:centerColor="@color/teddy_gradient_center" />
+            <corners android:radius="18.0dp" />
+        </shape>
+    </item>
+</ripple>

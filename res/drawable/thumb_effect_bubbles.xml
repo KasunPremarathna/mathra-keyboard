@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dp" android:width="120.0dp" android:viewportWidth="120.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$thumb_effect_bubbles__0" android:pathData="M0,0h120v80h-120z" />
+    <path android:fillColor="#4dffffff" android:pathData="M30,30m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path android:fillColor="#b3ffffff" android:pathData="M26,26m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="#33ffffff" android:pathData="M85,45m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path android:fillColor="#80ffffff" android:pathData="M80,38m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#66ffffff" android:pathData="M55,20m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#66ffffff" android:pathData="M100,25m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path android:fillColor="#66ffffff" android:pathData="M15,60m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+</vector>

@@ -1,0 +1,265 @@
+.class public final Lcom/yalantis/ucrop/R$drawable;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/yalantis/ucrop/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static abc_ab_share_pack_mtrl_alpha:I = 0x7f070058
+
+.field public static abc_action_bar_item_background_material:I = 0x7f070059
+
+.field public static abc_btn_borderless_material:I = 0x7f07005a
+
+.field public static abc_btn_check_material:I = 0x7f07005b
+
+.field public static abc_btn_check_material_anim:I = 0x7f07005c
+
+.field public static abc_btn_check_to_on_mtrl_000:I = 0x7f07005d
+
+.field public static abc_btn_check_to_on_mtrl_015:I = 0x7f07005e
+
+.field public static abc_btn_colored_material:I = 0x7f07005f
+
+.field public static abc_btn_default_mtrl_shape:I = 0x7f070060
+
+.field public static abc_btn_radio_material:I = 0x7f070061
+
+.field public static abc_btn_radio_material_anim:I = 0x7f070062
+
+.field public static abc_btn_radio_to_on_mtrl_000:I = 0x7f070063
+
+.field public static abc_btn_radio_to_on_mtrl_015:I = 0x7f070064
+
+.field public static abc_btn_switch_to_on_mtrl_00001:I = 0x7f070065
+
+.field public static abc_btn_switch_to_on_mtrl_00012:I = 0x7f070066
+
+.field public static abc_cab_background_internal_bg:I = 0x7f070067
+
+.field public static abc_cab_background_top_material:I = 0x7f070068
+
+.field public static abc_cab_background_top_mtrl_alpha:I = 0x7f070069
+
+.field public static abc_control_background_material:I = 0x7f07006a
+
+.field public static abc_dialog_material_background:I = 0x7f07006b
+
+.field public static abc_edit_text_material:I = 0x7f07006c
+
+.field public static abc_ic_ab_back_material:I = 0x7f07006d
+
+.field public static abc_ic_arrow_drop_right_black_24dp:I = 0x7f07006e
+
+.field public static abc_ic_clear_material:I = 0x7f07006f
+
+.field public static abc_ic_commit_search_api_mtrl_alpha:I = 0x7f070070
+
+.field public static abc_ic_go_search_api_material:I = 0x7f070071
+
+.field public static abc_ic_menu_copy_mtrl_am_alpha:I = 0x7f070072
+
+.field public static abc_ic_menu_cut_mtrl_alpha:I = 0x7f070073
+
+.field public static abc_ic_menu_overflow_material:I = 0x7f070074
+
+.field public static abc_ic_menu_paste_mtrl_am_alpha:I = 0x7f070075
+
+.field public static abc_ic_menu_selectall_mtrl_alpha:I = 0x7f070076
+
+.field public static abc_ic_menu_share_mtrl_alpha:I = 0x7f070077
+
+.field public static abc_ic_search_api_material:I = 0x7f070078
+
+.field public static abc_ic_voice_search_api_material:I = 0x7f070079
+
+.field public static abc_item_background_holo_dark:I = 0x7f07007a
+
+.field public static abc_item_background_holo_light:I = 0x7f07007b
+
+.field public static abc_list_divider_material:I = 0x7f07007c
+
+.field public static abc_list_divider_mtrl_alpha:I = 0x7f07007d
+
+.field public static abc_list_focused_holo:I = 0x7f07007e
+
+.field public static abc_list_longpressed_holo:I = 0x7f07007f
+
+.field public static abc_list_pressed_holo_dark:I = 0x7f070080
+
+.field public static abc_list_pressed_holo_light:I = 0x7f070081
+
+.field public static abc_list_selector_background_transition_holo_dark:I = 0x7f070082
+
+.field public static abc_list_selector_background_transition_holo_light:I = 0x7f070083
+
+.field public static abc_list_selector_disabled_holo_dark:I = 0x7f070084
+
+.field public static abc_list_selector_disabled_holo_light:I = 0x7f070085
+
+.field public static abc_list_selector_holo_dark:I = 0x7f070086
+
+.field public static abc_list_selector_holo_light:I = 0x7f070087
+
+.field public static abc_menu_hardkey_panel_mtrl_mult:I = 0x7f070088
+
+.field public static abc_popup_background_mtrl_mult:I = 0x7f070089
+
+.field public static abc_ratingbar_indicator_material:I = 0x7f07008a
+
+.field public static abc_ratingbar_material:I = 0x7f07008b
+
+.field public static abc_ratingbar_small_material:I = 0x7f07008c
+
+.field public static abc_scrubber_control_off_mtrl_alpha:I = 0x7f07008d
+
+.field public static abc_scrubber_control_to_pressed_mtrl_000:I = 0x7f07008e
+
+.field public static abc_scrubber_control_to_pressed_mtrl_005:I = 0x7f07008f
+
+.field public static abc_scrubber_primary_mtrl_alpha:I = 0x7f070090
+
+.field public static abc_scrubber_track_mtrl_alpha:I = 0x7f070091
+
+.field public static abc_seekbar_thumb_material:I = 0x7f070092
+
+.field public static abc_seekbar_tick_mark_material:I = 0x7f070093
+
+.field public static abc_seekbar_track_material:I = 0x7f070094
+
+.field public static abc_spinner_mtrl_am_alpha:I = 0x7f070095
+
+.field public static abc_spinner_textfield_background_material:I = 0x7f070096
+
+.field public static abc_star_black_48dp:I = 0x7f070097
+
+.field public static abc_star_half_black_48dp:I = 0x7f070098
+
+.field public static abc_switch_thumb_material:I = 0x7f070099
+
+.field public static abc_switch_track_mtrl_alpha:I = 0x7f07009a
+
+.field public static abc_tab_indicator_material:I = 0x7f07009b
+
+.field public static abc_tab_indicator_mtrl_alpha:I = 0x7f07009c
+
+.field public static abc_text_cursor_material:I = 0x7f07009d
+
+.field public static abc_text_select_handle_left_mtrl:I = 0x7f07009e
+
+.field public static abc_text_select_handle_middle_mtrl:I = 0x7f07009f
+
+.field public static abc_text_select_handle_right_mtrl:I = 0x7f0700a0
+
+.field public static abc_textfield_activated_mtrl_alpha:I = 0x7f0700a1
+
+.field public static abc_textfield_default_mtrl_alpha:I = 0x7f0700a2
+
+.field public static abc_textfield_search_activated_mtrl_alpha:I = 0x7f0700a3
+
+.field public static abc_textfield_search_default_mtrl_alpha:I = 0x7f0700a4
+
+.field public static abc_textfield_search_material:I = 0x7f0700a5
+
+.field public static abc_vector_test:I = 0x7f0700a6
+
+.field public static btn_checkbox_checked_mtrl:I = 0x7f0700b5
+
+.field public static btn_checkbox_checked_to_unchecked_mtrl_animation:I = 0x7f0700b6
+
+.field public static btn_checkbox_unchecked_mtrl:I = 0x7f0700b7
+
+.field public static btn_checkbox_unchecked_to_checked_mtrl_animation:I = 0x7f0700b8
+
+.field public static btn_radio_off_mtrl:I = 0x7f0700bb
+
+.field public static btn_radio_off_to_on_mtrl_animation:I = 0x7f0700bc
+
+.field public static btn_radio_on_mtrl:I = 0x7f0700bd
+
+.field public static btn_radio_on_to_off_mtrl_animation:I = 0x7f0700be
+
+.field public static notification_action_background:I = 0x7f0701cf
+
+.field public static notification_bg:I = 0x7f0701d0
+
+.field public static notification_bg_low:I = 0x7f0701d1
+
+.field public static notification_bg_low_normal:I = 0x7f0701d2
+
+.field public static notification_bg_low_pressed:I = 0x7f0701d3
+
+.field public static notification_bg_normal:I = 0x7f0701d4
+
+.field public static notification_bg_normal_pressed:I = 0x7f0701d5
+
+.field public static notification_icon_background:I = 0x7f0701d6
+
+.field public static notification_template_icon_bg:I = 0x7f0701d8
+
+.field public static notification_template_icon_low_bg:I = 0x7f0701d9
+
+.field public static notification_tile_bg:I = 0x7f0701da
+
+.field public static notify_panel_notification_icon_bg:I = 0x7f0701db
+
+.field public static tooltip_frame_dark:I = 0x7f070207
+
+.field public static tooltip_frame_light:I = 0x7f070208
+
+.field public static ucrop_crop:I = 0x7f07020f
+
+.field public static ucrop_ic_angle:I = 0x7f070210
+
+.field public static ucrop_ic_crop:I = 0x7f070211
+
+.field public static ucrop_ic_crop_unselected:I = 0x7f070212
+
+.field public static ucrop_ic_cross:I = 0x7f070213
+
+.field public static ucrop_ic_done:I = 0x7f070214
+
+.field public static ucrop_ic_next:I = 0x7f070215
+
+.field public static ucrop_ic_reset:I = 0x7f070216
+
+.field public static ucrop_ic_rotate:I = 0x7f070217
+
+.field public static ucrop_ic_rotate_unselected:I = 0x7f070218
+
+.field public static ucrop_ic_scale:I = 0x7f070219
+
+.field public static ucrop_ic_scale_unselected:I = 0x7f07021a
+
+.field public static ucrop_rotate:I = 0x7f07021b
+
+.field public static ucrop_scale:I = 0x7f07021c
+
+.field public static ucrop_shadow_upside:I = 0x7f07021d
+
+.field public static ucrop_vector_ic_crop:I = 0x7f07021e
+
+.field public static ucrop_vector_loader:I = 0x7f07021f
+
+.field public static ucrop_vector_loader_animated:I = 0x7f070220
+
+.field public static ucrop_wrapper_controls_shape:I = 0x7f070221
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

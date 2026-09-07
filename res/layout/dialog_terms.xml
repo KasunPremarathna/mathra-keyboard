@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/glass_card_premium" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="#2d3748" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="Terms &amp; Conditions" android:fontFamily="sans-serif-black" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="300.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="#4a5568" android:id="@id/tv_terms_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dp" />
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_close_terms" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="20.0dp" android:text="I Understand" app:backgroundTint="#8b5cf6" app:cornerRadius="16.0dp" />
+</LinearLayout>

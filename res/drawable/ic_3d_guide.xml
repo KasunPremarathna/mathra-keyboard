@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_3d_guide__0" android:pathData="M18,2H6C4.9,2 4,2.9 4,4V20C4,21.1 4.9,22 6,22H18C19.1,22 20,21.1 20,20V4C20,2.9 19.1,2 18,2Z" />
+    <path android:fillColor="#ffffff" android:pathData="M7,7h10v2h-10z M7,11h10v2h-10z M7,15h10v2h-10z" />
+    <path android:fillColor="#40000000" android:pathData="M18,3H6C5.45,3 5,3.45 5,4V20C5,20.55 5.45,21 6,21H18C18.55,21 19,20.55 19,20V4C19,3.45 18.55,3 18,3Z" />
+</vector>

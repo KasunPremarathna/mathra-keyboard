@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:background="@color/premium_bg_light" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/toolbar_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="6.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+        <RelativeLayout android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="72.0dp" android:paddingHorizontal="16.0dp">
+            <ImageButton android:id="@id/btnBack" android:background="?selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/abc_ic_ab_back_material" android:layout_centerVertical="true" app:tint="#2d3748" />
+            <TextView android:textSize="20.0sp" android:textColor="#2d3748" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Theme Center" android:layout_centerInParent="true" android:fontFamily="sans-serif-black" />
+            <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btnSave" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dp" android:text="SAVE" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:paddingHorizontal="20.0dp" app:backgroundTint="#8b5cf6" app:cornerRadius="20.0dp" app:icon="@drawable/ic_check" app:iconPadding="8.0dp" app:iconSize="20.0dp" app:iconTint="@color/white" style="@style/Widget.Material3.Button.TonalButton" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.core.widget.NestedScrollView android:paddingTop="8.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:paddingBottom="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dp">
+            <com.google.android.material.card.MaterialCardView android:id="@id/preview_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="4.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/keyboard_preview_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/premium_keyboard_layout" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/layout_rgb_controls" android:background="#0d000000" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:id="@id/custom_image_controls" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="12.0sp" android:textColor="#2d3748" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Key Opacity (Photo Theme)" android:alpha="0.7" />
+                            <com.google.android.material.slider.Slider android:value="0.5" android:id="@id/sliderKeyOpacity" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.05" android:valueFrom="0.0" android:valueTo="1.0" app:thumbColor="#00b894" app:trackColorActive="#00b894" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp">
+                                <TextView android:textSize="16.0sp" android:textColor="#2d3748" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Enable RGB Wave Effect" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+                                <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switchCustomRgb" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="16.0sp" android:textColor="#2d3748" android:id="@id/tv_border_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Keyboard Border" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+                            <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switchBorder" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:thumbTint="@color/m3_switch_thumb_color" app:trackDecorationTint="@color/m3_switch_track_outline_color" app:trackTint="@color/m3_switch_track_color" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/rgb_speed_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                            <TextView android:textSize="12.0sp" android:textColor="#2d3748" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="RGB Animation Speed" android:alpha="0.7" />
+                            <com.google.android.material.slider.Slider android:value="0.25" android:id="@id/sliderRgbSpeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.05" android:valueFrom="0.05" android:valueTo="1.0" app:thumbColor="#8b5cf6" app:trackColorActive="#8b5cf6" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#8b5cf6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="Choose Theme" android:textAllCaps="true" android:letterSpacing="0.05" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvPopularThemes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#8b5cf6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="Keyboard UI Font" android:textAllCaps="true" android:letterSpacing="0.05" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvUiFonts" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#8b5cf6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="Typing Effects (Particles)" android:textAllCaps="true" android:letterSpacing="0.05" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvEffectTypes" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_repeat" app:tint="#00b894" />
+                        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#2d3748" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Particle Speed (ඇනිමේෂන් වේගය)" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.slider.Slider android:value="1.0" android:id="@id/sliderKbEffectSpeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.1" android:valueFrom="0.1" android:valueTo="3.0" app:thumbColor="#00b894" app:trackColorActive="#00b894" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_edit" app:tint="#00b894" />
+                        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#2d3748" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Particle Size (ප්‍රමාණය)" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.slider.Slider android:value="1.0" android:id="@id/sliderKbEffectSize" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.1" android:valueFrom="0.5" android:valueTo="3.0" app:thumbColor="#00b894" app:trackColorActive="#00b894" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#8b5cf6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:text="Top Spawning Decorations" android:textAllCaps="true" android:letterSpacing="0.05" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvTopEffectTypes" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                    <View android:background="#1a000000" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:layout_marginVertical="16.0dp" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/teddy_logo" />
+                        <TextView android:textSize="16.0sp" android:textColor="#2d3748" android:id="@id/tv_teddy_mode_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Teddy Throwing Mode" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:layout_marginStart="12.0dp" />
+                        <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switchTeddyMode" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_repeat" app:tint="#8b5cf6" />
+                        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#2d3748" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Spawning Speed (වැටෙන වේගය)" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.slider.Slider android:value="1.0" android:id="@id/sliderEffectSpeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.1" android:valueFrom="0.1" android:valueTo="2.0" app:thumbColor="#8b5cf6" app:trackColorActive="#8b5cf6" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                        <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_edit" app:tint="#8b5cf6" />
+                        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#2d3748" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Item Size (සැරසිලි වල ප්‍රමාණය)" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.slider.Slider android:value="1.0" android:id="@id/sliderEffectSize" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="0.1" android:valueFrom="0.5" android:valueTo="3.0" app:thumbColor="#8b5cf6" app:trackColorActive="#8b5cf6" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:layout_marginBottom="40.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="2.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.button.MaterialButton android:id="@id/btnSelectImage" android:layout_width="match_parent" android:layout_height="60.0dp" android:text="Gallery Background" app:cornerRadius="16.0dp" app:icon="@drawable/ic_image" style="@style/Widget.Material3.Button.OutlinedButton" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|top" android:orientation="horizontal" android:id="@id/proBadgeSelectImage" android:background="@drawable/bg_premium_badge" android:paddingLeft="6.0dp" android:paddingTop="2.0dp" android:paddingRight="6.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginEnd="6.0dp" android:paddingHorizontal="6.0dp" android:paddingVertical="2.0dp">
+                            <ImageView android:layout_width="8.0dp" android:layout_height="8.0dp" android:src="@drawable/ic_star" app:tint="#ffffff" />
+                            <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PRO" android:layout_marginStart="2.0dp" />
+                        </LinearLayout>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                        <com.google.android.material.button.MaterialButton android:id="@id/btnCustomize" android:layout_width="match_parent" android:layout_height="60.0dp" android:text="Custom Designer" android:backgroundTint="#00b894" app:cornerRadius="16.0dp" app:icon="@drawable/ic_edit" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|top" android:orientation="horizontal" android:id="@id/proBadgeCustomize" android:background="@drawable/bg_premium_badge" android:paddingLeft="6.0dp" android:paddingTop="2.0dp" android:paddingRight="6.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginEnd="6.0dp" android:paddingHorizontal="6.0dp" android:paddingVertical="2.0dp">
+                            <ImageView android:layout_width="8.0dp" android:layout_height="8.0dp" android:src="@drawable/ic_star" app:tint="#ffffff" />
+                            <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PRO" android:layout_marginStart="2.0dp" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

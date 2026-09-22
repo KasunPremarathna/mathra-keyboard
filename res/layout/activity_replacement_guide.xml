@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/premium_bg_light" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+<LinearLayout android:orientation="vertical" android:background="#f6f8fc" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="6.0dp" app:strokeColor="#e0e0e0" app:strokeWidth="1.0dp">
-        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="72.0dp" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="#2d3748" app:title="Replacement Guide" app:titleMarginStart="16.0dp" app:titleTextColor="#2d3748" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="24.0dp" app:cardElevation="3.0dp" app:strokeColor="#e2e8f0" app:strokeWidth="1.0dp">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="72.0dp" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="#0f172a" app:title="Replacement Guide" app:titleMarginStart="16.0dp" app:titleTextColor="#0f172a" />
     </com.google.android.material.card.MaterialCardView>
     <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_replacements" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="16.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 </LinearLayout>

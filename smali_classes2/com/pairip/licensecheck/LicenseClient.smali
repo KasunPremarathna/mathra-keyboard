@@ -86,7 +86,7 @@
 
 .field protected static mainThreadRunner:Lcom/pairip/licensecheck/LicenseClient$ImmediateTaskExecutor; = null
 
-.field protected static packageName:Ljava/lang/String; = "com.smartkb.sinhala"
+.field protected static packageName:Ljava/lang/String; = "com.mathra.keyboard"
 
 .field protected static repeatedCheckEnabled:Z = true
 

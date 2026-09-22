@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="16.0sp" android:id="@id/tv_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="15.0sp" android:textColor="#0f172a" android:id="@id/tv_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
     <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switch_compat" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:thumbTint="@color/m3_switch_thumb_color" app:trackDecorationTint="@color/m3_switch_track_outline_color" app:trackTint="@color/m3_switch_track_color" />
 </LinearLayout>

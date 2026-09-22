@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <id name="card_setup_required" />
+    <id name="btn_setup_now" />
+    <id name="cat_quotes" />
+    <id name="compose_view" />
+    <id name="root_layout" />
     <id name="ALT" />
     <id name="BOTTOM_END" />
     <id name="BOTTOM_START" />

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f8fc"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@id/toolbar_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16.0dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="24.0dp"
+        app:cardElevation="3.0dp"
+        app:strokeColor="#e2e8f0"
+        app:strokeWidth="1.0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dp"
+            android:background="@android:color/transparent"
+            app:navigationIcon="@drawable/ic_back"
+            app:navigationIconTint="#0f172a"
+            app:title="වදන් Text"
+            app:subtitle="දිනපතා අලුත් වදන් සහ Status"
+            app:titleMarginStart="16.0dp"
+            app:titleTextColor="#0f172a"
+            app:subtitleTextColor="#64748b" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@id/compose_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

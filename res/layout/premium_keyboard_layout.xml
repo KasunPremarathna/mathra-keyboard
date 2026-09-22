@@ -25,6 +25,6 @@
         <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/suggestion_recycler_view" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
         <View android:id="@id/keyboard_key_area_placeholder" android:layout_width="match_parent" android:layout_height="230.0dp" />
     </LinearLayout>
-    <com.smartkb.sinhala.WaveView android:layout_gravity="bottom" android:id="@id/waveView" android:layout_width="match_parent" android:layout_height="120.0dp" android:alpha="0.8" />
-    <com.smartkb.sinhala.PremiumKeyboardView android:id="@id/premium_keyboard_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.mathra.keyboard.WaveView android:layout_gravity="bottom" android:id="@id/waveView" android:layout_width="match_parent" android:layout_height="120.0dp" android:alpha="0.8" />
+    <com.mathra.keyboard.PremiumKeyboardView android:id="@id/premium_keyboard_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
 </FrameLayout>
